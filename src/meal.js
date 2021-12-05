@@ -4,9 +4,9 @@ function nameMenuItem(item1) {
 
 function createMenuItem(name, price, type) {
   var menuItem = {
-    name: name,
-    price: price,
-    type: type,
+    name,
+    price,
+    type,
   };
   return menuItem;
 };
