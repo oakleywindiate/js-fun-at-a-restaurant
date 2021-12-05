@@ -17,8 +17,8 @@ function addIngredients(foodItem, ingredients) {
   //do nothing
   } else {
     ingredients.push(foodItem);
- }
-return ingredients;
+  }
+ return ingredients;
 };
 
 function formatPrice(initialPrice) {
@@ -26,7 +26,7 @@ function formatPrice(initialPrice) {
 };
 
 function decreasePrice(decreasedPrice) {
-return (decreasedPrice - ((10 / 100) * decreasedPrice));
+  return (decreasedPrice - ((10 / 100) * decreasedPrice));
 };
 
 function createRecipe(title, ingredients, type) {
@@ -34,8 +34,8 @@ var menuItem = {
   title,
   ingredients,
   type,
-}
-return menuItem;
+  }
+  return menuItem;
 };
 
 module.exports = {
