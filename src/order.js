@@ -23,13 +23,12 @@ var stringItems = [];
 }
 
 function searchOrder(orderArray, orderItem) {
-var isOrdered = false;
   for (var i = 0; i < orderArray.length; i++) {
     if (orderArray[i].item === orderItem) {
-      isOrdered = true;
+      return true;
     }
   }
-  return isOrdered
+  return false
 }
 
 module.exports = {
